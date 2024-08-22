@@ -1,0 +1,132 @@
+/*  <!-- ===========================
+         Common CSS  start 
+    =========================== --> */
+ a{
+    text-decoration: none;
+ }
+
+/*  <!-- ===========================
+         common css end
+    =========================== --> */
+
+/*  <!-- ===========================
+         NAVBAR part started
+    =========================== --> */
+    nav{
+      padding: 18px 0px;
+    }
+.nav-link {
+   font-size: 18px;
+   font-family: "Jost", sans-serif;
+   color: #00413D;
+   font-weight: 400;
+   padding-right: 0px !important;
+   padding-left: 0px !important;
+   transition: 0.4s;
+}
+.navbar-nav {
+    column-gap: 50px;
+}
+.nav-link:hover {
+    color: #E5745D;
+}
+.navbarbtn {
+    background-color: #E5745D;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    color: #fff;
+    font-weight: 600;
+    padding: 24px 46px;
+    position: relative;
+}
+.navbarbtn::after {
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    height: 68px;
+    width: 194px;
+    border: 1px solid white;
+    content: "";
+}
+/* <!-- ===========================
+NAVBAR part END
+=========================== --> */
+/*  <!-- ===========================
+         Banner part started
+    =========================== --> */
+    .banner{
+        background: #00413D;
+        padding: 221px 0;
+        position: relative;
+        overflow: hidden;
+        
+    }
+    .overly {
+        height: 100%;
+        width: 40%;
+        background-image: url('../image/hero.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        right: -40%;
+        transition: .4s;
+    }
+    .banner:hover .overly{
+        right: 0;
+    }
+    .banner h1 {
+        font-size: 100px;
+        font-weight: 700px;
+        color: #fff;
+        font-family: "Vollkorn", serif;
+    }
+   .banner h1 span {
+    display: block;
+   }
+   .banner p {
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    color: #978686;
+    font-weight: 500;
+    width: 670px;
+    padding-top: 14px;
+    padding-bottom: 50px;
+   }
+   .banner p span {
+    color: #fff;
+   }
+       /*  <!-- ===========================
+         common btn part
+    =========================== --> */
+
+    .commonbtn {
+    width: 170px;
+    height: 64px;
+    line-height: 64px;
+    background: #E5745D;
+    text-align: center;
+    position: relative;
+    }
+    .commonbtn a {
+        font-size: 18px;
+        font-family: "Jost", sans-serif;
+        color:white;
+        font-weight: 600;
+    }
+    .commonbtn::after {
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        height: 60px;
+        width: 166px;
+        border: 1px solid white;
+        content: "";
+    }
+    /*  <!-- ===========================
+         common btn part
+    =========================== --> */
+    /*  <!-- ===========================
+         Banner part end
+    =========================== --> */
