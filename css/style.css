@@ -56,10 +56,10 @@ NAVBAR part END
     =========================== --> */
     .banner{
         background: #00413D;
-        padding: 221px 0;
         position: relative;
         overflow: hidden;
-        
+        height: 850px;
+        width: 100%;
     }
     .overly {
         height: 100%;
@@ -73,14 +73,21 @@ NAVBAR part END
         right: -40%;
         transition: .4s;
     }
+    .textarea{
+            position: absolute;
+            top: 220px;
+            left: 120px;
+    }
     .banner:hover .overly{
         right: 0;
     }
+
     .banner h1 {
         font-size: 100px;
         font-weight: 700px;
         color: #fff;
         font-family: "Vollkorn", serif;
+        
     }
    .banner h1 span {
     display: block;
@@ -129,4 +136,67 @@ NAVBAR part END
     =========================== --> */
     /*  <!-- ===========================
          Banner part end
+    =========================== --> */
+    /*  <!-- ===========================
+         services part start
+    =========================== --> */
+     .tittle {
+        text-align: center;
+     }
+    .tittle h4 {
+        font-size: 18px;
+        color: #E5745D;
+        font-weight:500;
+        font-family: "Vollkorn", serif;
+    }
+    .services {
+        padding-top: 210px;
+    }
+    .tittle h2 {
+        font-size: 50px;
+        color: #00413D;
+        font-weight:500;
+        font-family: "Vollkorn", serif;
+        width: 517px;
+        margin: 0 auto;
+        padding-top: 11px;
+        padding-bottom: 40px;
+    }
+    .card-title {
+        font-size: 20px;
+        color: #00413D;
+        font-weight:800;
+        font-family: "Vollkorn", serif;
+    }
+    .card-text {
+        width: 245px;
+        height: 72px;
+        font-size: 16px;
+        color: rgba(0, 65, 61,.7);
+        font-weight:400;
+        font-family: "Vollkorn", serif;
+    }
+    .card img {
+        width: 25%;
+        padding-bottom: 14px;
+    }
+    .services .card {
+        border: 0px;
+        box-shadow: 2px 3px 4px #cfb5b5;
+    }
+  .services .card  .card-body {
+        padding: 0;
+    }
+    .services .card  .card-body  i{
+      font-size: 25px;
+      transition: 0.4s;
+    }
+    .services .card  .card-body  i:hover {
+        color: red;
+    }
+    .services .card {
+        padding: 50px 35px;
+    }
+    /*  <!-- ===========================
+         services part end
     =========================== --> */
