@@ -148,9 +148,30 @@ NAVBAR part END
         color: #E5745D;
         font-weight:500;
         font-family: "Vollkorn", serif;
+        position: relative;
+    }
+    .tittle h4::after {
+        position: absolute;
+        top: 7px;
+        left: 428px;
+        width: 50px;
+        height: 2px;
+        background: red;
+        content: "";
+    }
+    .tittle h4::before {
+        position: absolute;
+        top: 5px;
+        left: 475px;
+        width: 6px;
+        border-radius: 50%;
+        height: 6px;
+        background: red;
+        content: "";
     }
     .services {
         padding-top: 210px;
+        padding-bottom: 120px;
     }
     .tittle h2 {
         font-size: 50px;
@@ -200,3 +221,410 @@ NAVBAR part END
     /*  <!-- ===========================
          services part end
     =========================== --> */
+    /*  <!-- ===========================
+         project part start
+    =========================== --> */
+    .project .imagearea {
+         display: flex;
+    }
+    .project .imagearea img{
+        padding: 20px;
+    }
+    .project h4 {
+        font-family: "Vollkorn", serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #E5745D;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        padding-left: 82px;
+        position: relative;
+    }
+    .project h4::after {
+        position: absolute;
+        top: 39px;
+        left: 11px;
+        width: 50px;
+        height: 2px;
+        background: #E5745D;
+        content: "";
+    }
+    .project h4::before {
+        position: absolute;
+        top: 37px;
+        left: 56px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #E5745D;
+        content: "";
+    }
+    .project h2 {
+        font-family: "Vollkorn", serif;
+        font-size: 48px;
+        font-weight: 500;
+        color: #00413D;
+        width: 570px;
+    }
+    .project p {
+        font-family: "Vollkorn", serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(84, 143, 139);
+    }
+    /*  <!-- ===========================
+         project part end
+    =========================== --> */
+    /* <!-- ===========================
+    progress part start
+=========================== --> */
+.progressbar {
+    height: 500px;
+}
+.progressbar .circle {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%; 
+    border: 8px solid #E5745D;  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.progressbar h4 {
+    font-family: "Vollkorn", serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #00413D;
+}
+.progressbar h3 {
+    font-family: "Vollkorn", serif;
+    font-size: 34px;
+    font-weight: 600;
+    color:  #E5745D;
+}
+.progressbar .box {
+    height: 280px;
+    width: 280px;
+    background: #fff;
+    box-shadow: 2px 3px 4px #cfb5b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+/* <!-- ===========================
+progress part end
+=========================== --> */
+/* <!-- ===========================
+recent project part started
+=========================== --> */
+.recent-project h6 {
+   font-size: 18px;
+   font-family: "Vollkorn", serif;
+   font-weight: 500;
+   color:  #E5745D;
+   padding-left: 60px;
+   position: relative;
+}
+.recent-project h6::after {
+    position: absolute;
+    top: 9px;
+    left: -6px;
+    width: 50px;
+    height: 2px;
+    background: #E5745D;
+    content: "";
+}
+.recent-project h6::before {
+    position: absolute;
+    top: 7px;
+    left: 43px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #E5745D;
+    content: "";
+}
+.recent-project h2 {
+    font-family: "Vollkorn", serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #00413D;
+}
+.recent-project .arrowicon a {
+    background: #fff;
+    color: black;
+    height: 108px;
+    width: 44px;
+    font-size: 30px;
+    padding: 10px;
+    box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.65);
+    margin-right: 8px;
+    transition: .4s;
+}
+.recent-project .arrowicon a:hover {
+    background: #E5745D;
+    color: #fff;
+}
+.recent-project h5 {
+    font-size: 16px;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    color:  #E5745D;
+}
+.recent-project h3 {
+    font-size: 20px;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    color:  #00413D;
+}
+.recent-project p {
+    font-size: 16px;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    color: #3d6d6a;
+}
+.recent-project .card-body a {
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    color:  #00413D;
+    transition: .4s;
+}
+.recent-project .card-body a:hover {
+    color:  #E5745D;
+    font-size: 16px;
+}
+.recent-project .card img {
+    width: 100%;
+    height: 230px;
+    padding-bottom: 0 !important;
+}
+.recent-project .recent-project-middel-btn{
+    margin: 60px auto 120px auto;
+}
+
+
+/* <!-- ===========================
+recent project part end
+=========================== --> */
+/* <!-- ===========================
+example part start
+=========================== --> */
+.example h6 {
+    font-size: 18px;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    color: #E5745D;
+    text-align: center;
+    position: relative;
+}
+.example h6::after {
+    position: absolute;
+    top: 9px;
+    left: 62px;
+    width: 50px;
+    height: 2px;
+    background: #E5745D;
+    content: "";
+}
+.example h6::before {
+    position: absolute;
+    top: 7px;
+    left: 107px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #E5745D;
+    content: "";
+}
+.example h2 {
+    font-size: 40px;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    color: #00413D;
+    text-align: center;
+}
+.example ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.example li {
+    font-size: 16px;
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+    color: #00413D;
+    transition: .4s;
+    padding-bottom: 4px;
+}
+.example li:hover {
+    text-decoration: underline red;
+}
+.example-text-area{
+    padding: 0 !important;
+}
+.example .box {
+    width: 100%;
+    height: 100px;
+    background: #00413D;
+    margin-bottom: 20px;
+}
+.example .box h4 {
+    font-size: 24px;
+    font-family: "Vollkorn", serif;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 22px;
+    padding-left: 18px;
+}
+.example .box p {
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #d6cdcd;
+    padding-left: 18px;
+}
+.example img {
+    width: 100%;
+    height: 270px;
+}
+/* <!-- ===========================
+example part end
+=========================== --> */
+/* <!-- ===========================
+feedback part start
+=========================== --> */
+.feedback {
+    background: #F9F4F1;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.feedback .feedback-textarea h6 {
+    font-size: 18px;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    color: #E5745D;
+    text-align: center;
+    position: relative;
+    padding-top: 180px;
+}
+.feedback .feedback-textarea h6::after {
+    position: absolute;
+    top: 187px;
+    left: 423px;
+    width: 50px;
+    height: 2px;
+    background: #E5745D;
+    content: "";
+}
+.feedback .feedback-textarea h6::before {
+    position: absolute;
+    top: 185px;
+    left: 467px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #E5745D;
+    content: "";
+}
+.feedback .feedback-textarea h2 {
+    font-size: 40px;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    color: #00413D;
+    text-align: center;
+}
+.feedback-card .img {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background: url('../image/card-image-1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border: 1px solid #E5745D;
+}
+.feedback-card {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+.feedback-card-text h4 {
+    font-size: 20px;
+    font-family: "Vollkorn", serif;
+    font-weight: 600;
+    color: #00413D;
+}
+.feedback-card-text p {
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    color: #527a78;
+}
+.feedback-report {
+    width: 100%;
+    height: 140px;
+    background: #fff;
+    border-top:4px solid #E5745D ;
+    margin-bottom: 6px;
+}
+/* <!-- ===========================
+feedback part end
+=========================== --> */
+/* <!-- ===========================
+from part start
+=========================== --> */
+.from-part img{
+  width: 100%;
+  height: 360px;
+}
+.from-part {
+    margin-bottom: 80px;
+}
+.from-part h4 {
+    font-size: 18px;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    color: #E5745D;
+    padding-left: 50px;
+    position: relative;
+}
+.from-part h4::after {
+    position: absolute;
+    top: 9px;
+    left: -3px;
+    width: 50px;
+    height: 2px;
+    background: #E5745D;
+    content: "";
+}
+.from-part h4::before {
+    position: absolute;
+    top: 7px;
+    left: 42px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #E5745D;
+    content: "";
+}
+.from-part h2 {
+    font-size: 40px;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    color: #00413D;
+    
+}
+.from-part input {
+    border: none;
+    padding: 10px;
+    margin: 8px;
+    border-bottom:1px solid rgb(66, 61, 61) ;
+}
+/* <!-- ===========================
+from part end
+=========================== --> */

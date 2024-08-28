@@ -1,0 +1,26 @@
+@media (min-width:320px)and (max-width:575.99px) {
+   .navbar .navbar-brand img {
+    width: 80%;
+   }
+   .navbar-toggler{
+    padding: 0 !important;
+    font-size: 20px !important;
+   }
+   .navbar-nav {
+    align-items: center;
+   }
+   .navbarbtn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .navbarbtn::after {
+      position: absolute;
+      left: 4px;
+      top: 3px;
+      height: 68px;
+      width: 98%;
+      border: 1px solid white;
+      content: "";
+   }
+}

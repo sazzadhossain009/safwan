@@ -1,2 +1,4 @@
  font-family: "Jost", sans-serif;
  font-family: "Vollkorn", serif;
+ /win11.iso
+ sudo woeusb --device /home/sazzad/Downloads/win11.iso /dev/sdb
